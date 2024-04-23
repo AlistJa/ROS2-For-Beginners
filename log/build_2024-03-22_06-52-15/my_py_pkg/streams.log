@@ -1,0 +1,37 @@
+[0.641s] Invoking command in '/home/jt/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jt/ros2_ws/build/my_py_pkg/build install --record /home/jt/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.856s] running egg_info
+[0.856s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.857s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.857s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.858s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.858s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.859s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.860s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.860s] running build
+[0.860s] running build_py
+[0.860s] copying my_py_pkg/turtle_controller.py -> /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.861s] running install
+[0.862s] running install_lib
+[0.862s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/turtle_controller.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.863s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+[0.863s] running install_data
+[0.864s] running install_egg_info
+[0.865s] removing '/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.865s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.866s] running install_scripts
+[0.882s] Installing add_two_ints_client script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.882s] Installing add_two_ints_client_no_oop script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.882s] Installing add_two_ints_server script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.882s] Installing battery script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing hw_status_publisher script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing led_panel script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing number_counter script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing number_publisher script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing py_node script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing robot_news_station script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing smartphone script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing turtle_controller script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing turtle_killer script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.883s] Installing turtle_spawner script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.884s] writing list of installed files to '/home/jt/ros2_ws/build/my_py_pkg/install.log'
+[0.903s] Invoked command in '/home/jt/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jt/ros2_ws/build/my_py_pkg/build install --record /home/jt/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

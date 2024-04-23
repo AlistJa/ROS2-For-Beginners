@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:6 (cmake_policy):
+  cmake_policy given unknown first argument "-Wno-dev"
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

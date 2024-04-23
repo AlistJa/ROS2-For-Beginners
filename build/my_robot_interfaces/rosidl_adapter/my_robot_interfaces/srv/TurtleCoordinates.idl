@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_robot_interfaces/srv/TurtleCoordinates.srv
+// generated code does not contain a copyright notice
+
+
+module my_robot_interfaces {
+  module srv {
+    struct TurtleCoordinates_Request {
+      string name;
+    };
+    struct TurtleCoordinates_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

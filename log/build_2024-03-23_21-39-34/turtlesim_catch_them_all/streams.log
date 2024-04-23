@@ -1,0 +1,18 @@
+[0.631s] Invoking command in '/home/jt/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/jt/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[0.862s] running develop
+[0.998s] running egg_info
+[0.998s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.999s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.999s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.999s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[0.999s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[1.000s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.001s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.002s] running build_ext
+[1.002s] Creating /home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.003s] Installing turtle_controller script to /home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.003s] Installing turtle_spawner script to /home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.003s] 
+[1.003s] Installed /home/jt/ros2_ws/build/turtlesim_catch_them_all
+[1.003s] running install_data
+[1.025s] Invoked command in '/home/jt/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

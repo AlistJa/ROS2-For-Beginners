@@ -1,0 +1,1 @@
+/home/jt/ros2_ws/src/my_robot_bringup/launch/install/local_setup.sh

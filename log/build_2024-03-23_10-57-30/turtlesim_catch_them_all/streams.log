@@ -1,0 +1,24 @@
+[0.641s] Invoking command in '/home/jt/ros2_ws/build/turtlesim_catch_them_all': PYTHONPATH=/home/jt/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[0.867s] running develop
+[0.999s] running egg_info
+[0.999s] creating turtlesim_catch_them_all.egg-info
+[1.000s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[1.000s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[1.000s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[1.000s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[1.000s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[1.000s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.001s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.002s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[1.003s] running build_ext
+[1.003s] Creating /home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[1.004s] Installing turtle_controller script to /home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[1.004s] 
+[1.004s] Installed /home/jt/ros2_ws/build/turtlesim_catch_them_all
+[1.004s] running install_data
+[1.004s] creating /home/jt/ros2_ws/install/turtlesim_catch_them_all/share/ament_index
+[1.004s] creating /home/jt/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index
+[1.005s] creating /home/jt/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[1.005s] copying resource/turtlesim_catch_them_all -> /home/jt/ros2_ws/install/turtlesim_catch_them_all/share/ament_index/resource_index/packages
+[1.005s] copying package.xml -> /home/jt/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[1.026s] Invoked command in '/home/jt/ros2_ws/build/turtlesim_catch_them_all' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/jt/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data

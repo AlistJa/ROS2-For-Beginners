@@ -1,0 +1,17 @@
+[0.822s] Invoking command in '/home/jt/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.123s] running develop
+[1.290s] running egg_info
+[1.290s] writing my_py_pkg.egg-info/PKG-INFO
+[1.291s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.291s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.291s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.291s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.292s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.293s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.294s] running build_ext
+[1.294s] Creating /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.295s] Installing py_node script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.295s] 
+[1.295s] Installed /home/jt/ros2_ws/build/my_py_pkg
+[1.295s] running install_data
+[1.321s] Invoked command in '/home/jt/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build --no-deps install_data

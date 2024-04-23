@@ -1,0 +1,12 @@
+[0.060s] Invoking command in '/home/jt/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.024s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:[m[K In constructor ‘[01m[KMyNode::MyNode()[m[K’:
+[2.024s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/my_first_node.cpp:17:36:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kvoid MyNode::timerCallback()[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[2.024s]    17 |                 std::bind(&[01;31m[KMyNode::timerCallback[m[K. this));
+[2.024s]       |                            [01;31m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.024s]       |                                                 [32m[K()[m[K
+[2.384s] gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1
+[2.385s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2
+[2.385s] gmake: *** [Makefile:146: all] Error 2
+[2.387s] Invoked command in '/home/jt/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12

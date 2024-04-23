@@ -1,0 +1,78 @@
+[0.058s] Invoking command in '/home/jt/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target add_two_ints_server[0m
+[0.106s] [ 50%] Built target robot_news_station
+[0.106s] [ 50%] Built target smartphone
+[0.107s] [ 50%] Built target cpp_node
+[0.107s] [ 66%] Built target number_publisher
+[0.109s] [ 83%] Built target number_counter
+[0.115s] [ 91%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[2.186s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.186s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.187s]                  from [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[2.187s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:[m[K In constructor ‘[01m[KAddTwoIntsServerNode::AddTwoIntsServerNode()[m[K’:
+[2.187s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’
+[2.187s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.187s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.187s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.187s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.187s]                  from [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[2.187s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:142:3:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.187s]   142 |   [01;36m[Kget_logger[m[K() const;
+[2.188s]       |   [01;36m[K^~~~~~~~~~[m[K
+[2.188s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.188s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.188s]                  from [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[2.188s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.188s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.188s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.188s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.188s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.188s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.188s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.189s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.189s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.189s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.189s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.189s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.189s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.189s]    15 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger, "Service server has been started");
+[2.189s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[2.189s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.189s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.189s]                  from [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:1[m[K:
+[2.190s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[2.190s]    15 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "Service server has been started");
+[2.190s]       |                           [01;31m[K^[m[K
+[2.190s] [01m[K/home/jt/ros2_ws/src/my_cpp_pkg/src/add_two_ints_server.cpp:15:27:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Logger rclcpp::Node::get_logger() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[2.190s]    15 |         RCLCPP_INFO(this->[01;31m[Kg[m[Ket_logger, "Service server has been started");
+[2.190s]       |                           [01;31m[K^[m[K
+[2.730s] gmake[2]: *** [CMakeFiles/add_two_ints_server.dir/build.make:76: CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o] Error 1
+[2.730s] gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/add_two_ints_server.dir/all] Error 2
+[2.730s] gmake: *** [Makefile:146: all] Error 2
+[2.733s] Invoked command in '/home/jt/ros2_ws/build/my_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12

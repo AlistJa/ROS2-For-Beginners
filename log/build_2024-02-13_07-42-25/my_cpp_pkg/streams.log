@@ -1,0 +1,26 @@
+[0.059s] Invoking command in '/home/jt/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target cpp_node[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[2.626s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[2.726s] [100%] Built target cpp_node
+[2.736s] Invoked command in '/home/jt/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/jt/ros2_ws/build/my_cpp_pkg -- -j12 -l12
+[2.766s] Invoking command in '/home/jt/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/jt/ros2_ws/build/my_cpp_pkg
+[2.772s] -- Install configuration: ""
+[2.772s] -- Installing: /home/jt/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node
+[2.773s] -- Set runtime path of "/home/jt/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/cpp_node" to ""
+[2.773s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[2.774s] -- Installing: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[2.774s] -- Up-to-date: /home/jt/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[2.775s] Invoked command in '/home/jt/ros2_ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jt/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/jt/ros2_ws/build/my_cpp_pkg

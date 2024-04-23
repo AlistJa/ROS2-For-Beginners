@@ -1,0 +1,24 @@
+[0.769s] Invoking command in '/home/jt/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build --no-deps install_data
+[1.062s] running develop
+[1.207s] running egg_info
+[1.207s] writing my_py_pkg.egg-info/PKG-INFO
+[1.207s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.208s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.208s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.208s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.211s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.213s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.214s] running build_ext
+[1.215s] Creating /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.216s] Installing add_two_ints_client script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.216s] Installing add_two_ints_client_no_oop script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.216s] Installing add_two_ints_server script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.217s] Installing number_counter script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.217s] Installing number_publisher script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.217s] Installing py_node script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.217s] Installing robot_news_station script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.217s] Installing smartphone script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.218s] 
+[1.218s] Installed /home/jt/ros2_ws/build/my_py_pkg
+[1.218s] running install_data
+[1.247s] Invoked command in '/home/jt/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build --no-deps install_data

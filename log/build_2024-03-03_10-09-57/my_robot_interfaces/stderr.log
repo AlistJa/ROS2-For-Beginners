@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:13 (finf_package):
+  Unknown CMake command "finf_package".
+
+[0m

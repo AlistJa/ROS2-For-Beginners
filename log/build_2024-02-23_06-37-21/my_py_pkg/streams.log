@@ -1,0 +1,53 @@
+[0.650s] Invoking command in '/home/jt/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build
+[0.881s] running develop
+[1.018s] Removing /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.042s] Invoked command in '/home/jt/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jt/ros2_ws/build/my_py_pkg/build
+[1.042s] Invoking command in '/home/jt/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jt/ros2_ws/build/my_py_pkg/build install --record /home/jt/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[1.273s] running egg_info
+[1.273s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.273s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.274s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.274s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.274s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.275s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.276s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.276s] running build_py
+[1.276s] copying my_py_pkg/add_two_ints_server.py -> /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.276s] copying my_py_pkg/number_counter.py -> /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.277s] running install
+[1.277s] running install_lib
+[1.278s] creating /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_python_node.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.278s] copying /home/jt/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.279s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.279s]   File "/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py", line 16
+[1.279s]     str(request.a) " + " str(request.b) " = " str(response.sum))
+[1.279s]     ^^^^^^^^^^^^^^^^^^^^
+[1.279s] SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[1.279s] 
+[1.279s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.279s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[1.279s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[1.280s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/template_python_node.py to template_python_node.cpython-310.pyc
+[1.280s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.280s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.281s] byte-compiling /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.281s] running install_data
+[1.281s] running install_egg_info
+[1.282s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.283s] running install_scripts
+[1.299s] Installing add_two_ints_server script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.299s] Installing number_counter script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.299s] Installing number_publisher script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.300s] Installing py_node script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.300s] Installing robot_news_station script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.300s] Installing smartphone script to /home/jt/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.300s] writing list of installed files to '/home/jt/ros2_ws/build/my_py_pkg/install.log'
+[1.319s] Invoked command in '/home/jt/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/jt/ros2_ws/build/my_py_pkg/prefix_override:/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/jt/ros2_ws/build/my_py_pkg/build install --record /home/jt/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

@@ -1,0 +1,5 @@
+  File "/home/jt/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/turtle_controller.py", line 11
+    self.subscriber_turtle_pose = self.create_subscription(Pose, "turtle1/pose", self.callback_turtle_pose 10)
+                                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
